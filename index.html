@@ -291,6 +291,44 @@
       </div>
     </main>
 
+    <footer class="footer">
+      <section id="contact" class="container contact">
+        <h2 class="contact_header section_header">Contact me</h2>
+        <p>
+          If you have an application you are interested in developing, a
+          feature that you need built or a project that needs coding. I’d love
+          to help with it
+        </p>
+        <form action="https://formspree.io/f/mvodnloy" method="post" class="form">
+          <input
+            name="fullname"
+            type="text"
+            placeholder="John Doe"
+            maxlength="30"
+            aria-required="true"
+            required
+          />
+          <input
+            name="email"
+            type="email"
+            placeholder="email@example.com"
+            aria-required="true"
+            required
+            pattern="^[a-z0-9]+@(.+)$"
+          />
+          <textarea
+            name="message"
+            placeholder="write your message here"
+            maxlength="500"
+            aria-required="true"
+            required
+          ></textarea>
+          <button class="btn btn-form" type="submit">Get In Touch</button>
+
+          <span class="error-msg"></span>
+        </form>
+      </section>
+    </footer>
     <script
       src="https://kit.fontawesome.com/e966a3bd22.js"
       crossorigin="anonymous"
