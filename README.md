@@ -6,7 +6,7 @@
 
 ![screenshot](./media/png/app_screenshot.png)
 
-Additional description about the project and its features.
+This is the contact form I made for my TSE partner to review
 
 ## Built With
 
