@@ -2,7 +2,7 @@
 
 # contact-form-review
 
-> contact-form-review: setup and mobile version skeleton.
+> contact-form-review: contact form of portfolio.
 
 ![screenshot](./media/png/app_screenshot.png)
 
