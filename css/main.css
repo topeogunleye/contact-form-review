@@ -331,7 +331,7 @@ li {
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
-  color: #F55800;
+  color: #f55800;
   background: #fff;
   border: 1px solid #7f8cff;
   padding: 8px 10px;
@@ -342,7 +342,7 @@ li {
 }
 
 .btn:hover {
-  background: #F55800;
+  background: #f55800;
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   cursor: pointer;
@@ -382,7 +382,7 @@ li {
   transition: transform 2s ease-in-out 0s;
   color: #262626;
   font-family: Inter, Helvetica, sans-serif;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .footer .contact p:hover {
@@ -442,7 +442,7 @@ li {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  background: #505F79;
+  background: #505f79;
 }
 .social .social_links {
   list-style: none;
