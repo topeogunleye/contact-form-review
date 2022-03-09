@@ -328,13 +328,12 @@ li {
 
 /* button styles */
 .btn {
-  font-weight: 500;
+  font-weight: bold;
   font-size: 17px;
   line-height: 24px;
-  color: #6070ff;
+  color: #F55800;
   background: #fff;
   border: 1px solid #7f8cff;
-  border-radius: 8px;
   padding: 8px 10px;
   width: fit-content;
   transition: all 0.3s ease-in-out 0s;
@@ -343,7 +342,7 @@ li {
 }
 
 .btn:hover {
-  background: #6070ff;
+  background: #F55800;
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   cursor: pointer;
@@ -356,8 +355,7 @@ li {
 
 /* Contact Form */
 .footer {
-  background: url('../images/background/header-shapes-contact@2x.svg');
-  background-color: #6070ff;
+  background-color: #fff;
   border-top-left-radius: 90px;
 }
 
@@ -382,6 +380,9 @@ li {
   font-size: 40px;
   line-height: 52px;
   transition: transform 2s ease-in-out 0s;
+  color: #262626;
+  font-family: Inter, Helvetica, sans-serif;
+  font-weight: bold
 }
 
 .footer .contact p:hover {
@@ -397,7 +398,6 @@ li {
 .footer .contact form textarea {
   background: #fff;
   padding: 10px 16px;
-  border-radius: 8px;
   border: 1px solid #cfd8dc;
   color: #172b4d;
   font-size: 17px;
@@ -420,8 +420,7 @@ li {
 
 @media (min-width: 960px) {
   .footer {
-    background: url('../images/background/contact form background shapes.svg');
-    background-color: #6070ff;
+    background-color: #fff;
     text-align: center;
   }
 
@@ -435,4 +434,24 @@ li {
   .footer form .btn {
     margin: auto;
   }
+}
+
+/* Social links */
+.social .social_header {
+  color: #7f8cff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  background: #505F79;
+}
+.social .social_links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 170px;
+  margin: 20px 0;
+}
+.social .social_links li a:hover {
+  cursor: pointer;
 }
