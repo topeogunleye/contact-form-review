@@ -444,6 +444,7 @@ li {
   line-height: 24px;
   background: #505f79;
 }
+
 .social .social_links {
   list-style: none;
   display: flex;
@@ -452,6 +453,7 @@ li {
   width: 170px;
   margin: 20px 0;
 }
+
 .social .social_links li a:hover {
   cursor: pointer;
 }
